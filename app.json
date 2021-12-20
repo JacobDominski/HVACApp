@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HVACApp",
-    "slug": "HVACApp",
+    "name": "HVACAppPrototype",
+    "slug": "hvacappprototype",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,7 +17,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jackinthebox.HVACApp"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,6 +28,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
